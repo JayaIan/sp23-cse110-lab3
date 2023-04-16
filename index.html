@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 2 Meeting Notes</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#attendance">Attendance</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#todo">To do</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <h1>Meeting Notes 04/15/2023</h1>
+
+        <section id="attendance">
+            <h2>Attendance:</h2>
+            <ul>
+                <li>Person 1</li>
+                <li>Person 2</li>
+                <li>Person 3</li>
+              </ul>
+        </section>
+
+        <section id="summary"></section>
+            <h2>Summary:</h2>
+            <div> 
+                <p>This meeting is the <b>first</b> meeting. <br>
+                    Future meetings are <i>mandatory</i>. <br>
+
+                </p>
+            </div>
+            <hr>
+            <h3>Good Stuff</h3>
+                <span>
+                    <ol>
+                        <li>Love</li>
+                        <li>Joy</li>
+                        <li>Peace</li>
+                        <li>Patience</li>
+                        <li>Kindness</li>
+                        <li>Goodness</li>
+                        <li>Faithfulness</li>
+                        <li>Gentleness</li>
+                        <li>Self-Control</li>
+                    </ol>
+                    <a href="https://www.biblegateway.com/passage/?search=Galatians%205%3A22-23&version=NASB">Source</a>
+                </span>
+            <hr>
+            <h3>Bad Stuff</h3>
+            <span>
+                <ol>
+                    <li>Immorality</li>
+                    <li>Sorcery</li>
+                    <li>Enmities</li>
+                    <li>Strife</li>
+                    <li>Jealousy</li>
+                    <li>Anger</li>
+                    <li>Disputes</li>
+                    <li>Envying</li>
+                    <li>Drunkenness</li>
+                </ol>
+                <a href="https://www.biblegateway.com/passage/?search=Galatians+5%3A19-21&version=NASB">Source</a>
+            </span>
+            <hr>
+            <h3>Main Takeaways</h3>
+                <details>
+                    <summary>important things</summary>
+                    <p><em>Scripture</em></p>
+                    <p><strong>Prayer</strong></p>
+                </details>
+            <hr>
+            <h3>Review</h3>
+                <img scr="media/Jeremiah.png">
+                <audio scr="media/Romans6.mp3">
+                    Romans 6
+                </audio>
+                <video scr="media/IGB Intro Cropped.mp4">
+                    Intro video
+                </video>
+            <hr>
+        </section>
+
+        <section  id="todo"></section>
+            <h2>To Do:</h2>
+        </section>
+    </main>
+    <footer>
+        <h2>Comments</h2>
+        <form>
+            <fieldset>
+                <legend>Write a comment?</legend>
+                <input type="checkbox" id="chbx" name="comment" value="Yes" />
+                <label for="chbx">Yes</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What kind of comment?</legend>
+                <input type="radio" id="good" name="type" value="good">
+                <label for="good">Good</label>
+
+                <input type="radio" id="bad" name="type" value="bad">
+                <label for="bad">Bad</label>
+            
+                <input type="radio" id="idk" name="type" value="idk">
+                <label for="idk">IDK</label>
+                <br>
+                <textarea>Enter comment</textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your email</legend>
+                <label for="email-type">Email type:</label>
+                <input list="email-types" id="email-type">
+                <datalist id="email-types">
+                    <option value="personal">
+                    <option value="business">
+                </datalist>
+                <br>
+                <label for="email">Your email:</label>
+                <input type="text" id="email" name="info">
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="time" value="day">
+                <br>
+                <label for="relation">Who are you</label>
+                <select name="person" id="relation">
+                    <option value="">--Please choose an option--</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="both">Both</option>
+                    <option value="neither">Neither</option>
+                </select>
+                <button>Submit
+                </button>
+            </fieldset>
+        </form>
+    </footer>
+  </body>
+</html>
