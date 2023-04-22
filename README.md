@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://jayaian.github.io/Lab2_CSE110/
+https://jayaian.github.io/sp23-cse110-lab3/
