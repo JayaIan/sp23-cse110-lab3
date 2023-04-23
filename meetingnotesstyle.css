@@ -1,0 +1,97 @@
+/* This is the CSS file for meeting notes */
+
+@font-face {
+    font-family: interestingfont;
+    src: url(fonts/VinaSans-Regular.ttf);
+}
+
+* {
+    font-family: interestingfont;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 2vh;
+    width: 200pt;
+    height: 100px;
+    position: static;
+}
+
+#attendance {
+    color: orange;
+}
+
+.notimportant{
+    font-size: 8px;
+}
+
+h3, h2 {
+    text-decoration: underline;
+    color: #023080;
+    margin: 0px 10px 20px 30px;
+    border-style: solid;
+    border-color: hsl(145, 91%, 32%);
+    border-width: 1ex;
+    border-radius: 2mm;
+    max-width: 20%;
+    max-height: 2em;
+    position: sticky;
+}
+
+a:hover {
+    color: rgb(255, 0, 204);
+}
+
+a:active {
+    color: rgb(255, 0, 204);
+    text-decoration: solid;
+}
+
+p {
+    margin-top: 4em;
+    padding: 3pt 4pt 5pt 6pt;
+}
+
+fieldset {
+    display: inline-block;
+}
+
+ol li {
+    display: inline;
+}
+
+a[href*="#"] {
+    font-size: 1em;
+}
+
+p + p {
+    font-size: 2em;
+}
+
+ol ~ a {
+    font-size: 5px;
+}
+
+ul.navigation {
+    display: grid;
+    row-gap: 15px;
+    column-gap: 50px;
+    justify-items: start;
+}
+
+section > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 1250px) {
+    h2 {
+        color: rgb(255, 0, 0);
+    }
+}
+
